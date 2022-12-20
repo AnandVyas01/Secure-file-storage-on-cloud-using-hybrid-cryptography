@@ -28,8 +28,13 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
 /****-----start-body----****/
+html{
+    background: url(../images/world.jpg);
+    background-size: cover;
+}
 body{
-	 background: url(../images/bg.png);
+	 background: url(../images/world.jpg);
+         background-size: cover;
 	font-family: 'Lato', sans-serif;
 }
 .wrap{
@@ -100,11 +105,23 @@ form{
 	width: 90%;
 	background: none;
 }
+input[type="text"]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #99bbff;
+  opacity: 1; /* Firefox */
+}
+input[type="password"]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #99bbff;
+  opacity: 1; /* Firefox */
+}
+input[type="email"]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #99bbff;
+  opacity: 1; /* Firefox */
+}
 input[type="text"], input[type="password"],input[type="email"]{
 	font-family: 'Lato', sans-serif;
     width: 441px;
   padding: 16px 16px 16px 16px;
-  color: #fff;
+  color: white;
   font-size: 18px;
   outline: none;
   background: none;
@@ -114,7 +131,7 @@ input[type="text"], input[type="password"],input[type="email"]{
   -moz-border-radius: 50em;
   -o-border-radius: 5em;
   -ms-border-radius: 50em;
-  border: 1px solid#fff;
+  border: 1px solid #1abc9c;
   margin-bottom: 1em;
     text-align: center;
 }
