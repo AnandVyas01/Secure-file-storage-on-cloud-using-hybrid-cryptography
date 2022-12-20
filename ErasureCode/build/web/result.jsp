@@ -1,9 +1,3 @@
-<%-- 
-    Document   : Aboutus
-    Created on : nov 1, 2015, 5:57:29 PM
-    Author     : Devaa
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,7 +6,7 @@
         <title>JSP Page</title>
     </head>
     <center>
-    <body background="images/images26.jpg">
+    <body background="images/world.jpg">
         
         <div id="result">
             <h3> File Upload Successfully</h3>

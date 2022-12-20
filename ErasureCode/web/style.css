@@ -34,10 +34,12 @@ form {
 	padding: 0px;
 }
 body {
-	background: url(images/bg.jpg);
+	background: url(images/world.jpg);
+        background-size: cover;
 }
 #outer {
-	background: url(images/bg_top.jpg) repeat-x;
+	background: url(images/world.jpg) no-repeat;
+        background-size: cover;
 	min-height: 757px;
 	padding: 67px 0px;
 	text-align: center;
