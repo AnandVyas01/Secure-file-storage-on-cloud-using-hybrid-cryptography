@@ -236,15 +236,18 @@ body.decrypt .if-decrypt{
 
 
 #step1{
-	background-color:#75c0d1;
+	background: url(../../images/world.jpg);
+         background-size: cover;
 }
 
 body.encrypt #step2{
-	background-color: #9ad58c;
+	background: url(../../images/world.jpg);
+         background-size: cover;
 }
 
 body.decrypt #step2{
-	background-color: #E7A8D1;
+	background: url(../../images/world.jpg);
+         background-size: cover;
 }
 
 
@@ -293,7 +296,8 @@ body.decrypt #step2{
 
 
 #step3{
-	background-color:#d5d788;
+	background: url(../../images/world.jpg);
+         background-size: cover;
 }
 
 #step3 input[type=password],input[type=text]{
@@ -312,7 +316,8 @@ body.decrypt #step2{
 	color: #555;
 }
 #step4{
-	background-color:#aa8cd8;
+	background:url(../../images/world.jpg);
+        background-size: cover;
 }
 #step4 input[type=password]{
 	
@@ -348,7 +353,8 @@ body.decrypt #step2{
 
 
 #step4{
-	background-color:#aa8cd8;
+	background: url(../../images/world.jpg);
+         background-size: cover;
 }
 
 

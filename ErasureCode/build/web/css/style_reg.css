@@ -106,15 +106,15 @@ form{
 	background: none;
 }
 input[type="text"]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #99bbff;
+  color: white;
   opacity: 1; /* Firefox */
 }
 input[type="password"]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #99bbff;
+  color: white;
   opacity: 1; /* Firefox */
 }
 input[type="email"]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #99bbff;
+  color: white;
   opacity: 1; /* Firefox */
 }
 input[type="text"], input[type="password"],input[type="email"]{
