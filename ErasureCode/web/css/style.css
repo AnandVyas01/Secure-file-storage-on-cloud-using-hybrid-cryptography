@@ -3,7 +3,7 @@ body {
 	background: #ffb744 url(../images/world.jpg) repeat left bottom;
 	font-family: "Times New Roman", Times, serif;
 	margin: 0;
-	color: white;
+	color: #117a8b;
 }
 #background {
 	background: url(../images/world.jpg) repeat-x center top;
@@ -16,6 +16,10 @@ body {
 }
 img {
 	border: 0;
+}
+
+h1{
+    color: #117a8b;
 }
 /*------------------------------ Sprites ------------------------------*/
 #navigation li, #navigation li a:hover, #navigation li.selected a {
@@ -34,6 +38,7 @@ img {
 #header {
 	margin-bottom: 20px;
 	padding-top: 20px;
+        color: #117a8b;
 }
 /** Logo **/
 #logo {
