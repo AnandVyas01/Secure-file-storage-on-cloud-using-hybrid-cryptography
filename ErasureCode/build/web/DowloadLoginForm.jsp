@@ -75,7 +75,7 @@
 <!--========================================================
                           CONTENT
 =========================================================-->
-<section id="content"><div class="ic">More Website Templates @ TemplateMonster.com - September08, 2014!</div>
+<section id="content">
 <div class="camera-wrapper">
     <div id="camera" class="camera-wrap">
         <div data-src="images/index_slide11.jpg">
@@ -141,7 +141,7 @@
         <div class="row">
             <div class="grid_12">
                 <p class="info text_4 color_4">
-                    © <span id="copyright-year"></span> | <a href="#">Pantech</a> <br/>     </p>
+                    © <span id="copyright-year"></span> | <a href="#">2022-23 Mini Project</a> <br/>     </p>
             </div>
         </div>
     </div>

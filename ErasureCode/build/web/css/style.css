@@ -1,15 +1,17 @@
 /* Website template by freewebsitetemplates.com */
 body {
-	background: #ffb744 url(../images/bg-body.jpg) repeat left bottom;
+	background: #ffb744 url(../images/world.jpg) repeat left bottom;
 	font-family: "Times New Roman", Times, serif;
 	margin: 0;
+	color: white;
 }
 #background {
-	background: url(../images/bg-pattern.jpg) repeat-x center top;
+	background: url(../images/world.jpg) repeat-x center top;
 	min-height: 1318px;
+    background-size: cover;
 }
 #page {
-	width: 960px;
+	width: 960pxs;
 	margin: 0 auto;
 }
 img {
