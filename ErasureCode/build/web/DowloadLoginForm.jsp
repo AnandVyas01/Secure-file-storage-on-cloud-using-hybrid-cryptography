@@ -63,7 +63,7 @@
                 margin-bottom: 1em;
                 text-align: center;
             }
-            input[type="submit"]{
+            button[type="submit"]{
                 font-family: 'Lato', sans-serif;
                 font-size: 28px;
                 font-weight: 100;
@@ -81,7 +81,7 @@
                 border: none;
                 text-align: center;
             }
-            input[type="submit"]:hover {
+            button[type="submit"]:hover {
                 background: #1abc9c;
                 border-radius: 6px;
                 -webkit-border-radius: 6px;

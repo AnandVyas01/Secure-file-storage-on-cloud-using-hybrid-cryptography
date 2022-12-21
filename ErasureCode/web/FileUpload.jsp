@@ -56,7 +56,7 @@
 
 
                         <div>				
-                            <button class="btn btn-success login" type="submit" style="margin-top: 30px">Upload</button>>
+                            <button class="btn btn-success login" type="submit" style="margin-top: 30px">Upload</button>
                         </div>
                     </div>
 
