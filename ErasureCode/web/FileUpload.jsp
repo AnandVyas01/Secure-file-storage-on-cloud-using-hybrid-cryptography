@@ -49,7 +49,6 @@
 
                         <div>
                             <div>
-                                <label for="formFileLg" class="form-label">Large file input example</label>
                                 <input class="form-control form-control-lg"  name="file" id="formFileLg file" type="file">
                             </div>
                           
