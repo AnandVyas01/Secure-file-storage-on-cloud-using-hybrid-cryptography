@@ -136,10 +136,11 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <button class="button123" type="submit" id="login" style="margin-top:30px">Submit</button>
+                                    <button class="button123" type="submit" id="login" style="margin-top:30px">Submit</button>                                 
                                 </td>
                             </tr>                                        
-                        </table> 
+                        </table>
+                                    <a href="index.jsp" class="badge badge-danger">Go to home page</a>
                         <script src="js/script.js"></script>
                     </form>
                 </div>
