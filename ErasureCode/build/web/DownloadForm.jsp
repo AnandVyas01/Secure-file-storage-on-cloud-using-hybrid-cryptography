@@ -14,7 +14,7 @@
 
 <html lang="en">
     <head>
-        <title>ErasureCode</title>
+        <title>download page</title>
         <meta charset="utf-8">
         <meta name="format-detection" content="telephone=no"/>
         <link rel="icon" href="images/favicon.ico" type="image/x-icon">

@@ -144,7 +144,7 @@ static Properties properties = new Properties();
          message.setSubject("Pantech Madurai");
          //message.setSubject("private key");
          
-         message.setText("Buddy Your Key is"+"\n"+key1 + "\n");
+         message.setText("Your shared Key is"+"\n"+key1 + "\n");
          //message.setText("private key is "+"\n"+pri);
    
         Multipart multipart = new MimeMultipart();

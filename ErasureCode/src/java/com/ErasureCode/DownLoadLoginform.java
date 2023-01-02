@@ -3,6 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+//for download page login backend code 
+
 package com.ErasureCode;
 
 import java.io.File;
@@ -76,6 +79,9 @@ public class DownLoadLoginform extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
+    
+    //post (create) form code  
+     
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -89,8 +95,13 @@ public class DownLoadLoginform extends HttpServlet {
         
         try
         {
+            
+            // connect to the database and search user
+            
+            //store files in this list
              ArrayList list=new ArrayList();
-            String Username=request.getParameter("username");
+            
+             String Username=request.getParameter("username");
             String Password=request.getParameter("password");
             System.out.println("Username="+Username+"    "+"password ="+Password);
            Class.forName("com.mysql.jdbc.Driver");
@@ -114,6 +125,7 @@ public class DownLoadLoginform extends HttpServlet {
                 
                 String productkey=rs.getString("userproductkey");
                 
+                //logging in and redirecting to next page
                 response.sendRedirect("DownloadForm.jsp");
                 session1.setAttribute("Username",Username);
                 session1.setAttribute("ProductKey",productkey);
